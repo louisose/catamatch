@@ -1,0 +1,95 @@
+p{
+  font-style: normal;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+a:link{
+  color: green;
+}
+
+a:visited{
+  color: #555555;
+}
+
+a:hover{
+  color: #00FFFF;
+}
+
+a:active{
+  color: #D2691E;
+}
+
+.mainmenu{
+  background-color: #884EA0;
+  font-size: 15px;
+  font-style: normal;
+  font-family: cursive;
+
+  border-style: solid;
+
+  border-width: thin;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+
+}
+
+.feeforadoption{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  margin: auto;
+  font-style: normal;
+  font-family: cursive;
+  font-size: 15px;
+
+}
+
+.adopt{
+  font-style: normal;
+  font-family: cursive;
+  font-size: 13px;
+
+}
+nav{
+  width: 100%;
+  height: 30px;
+  background-color: #884EA0;
+}
+
+nav ul{
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+  background-color: #884EA0;
+  opacity: 1
+}
+
+nav ul li a{
+  display: block;
+  padding:  10px;
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 2px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li a{
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+  background-color: #884EA0;
+}
